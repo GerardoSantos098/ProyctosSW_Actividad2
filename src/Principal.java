@@ -4,6 +4,12 @@ import java.util.List;
 public class Principal {
 
     public static void main(String[] args){
+
+        //Inicio de sesion
+        Login login = new Login();
+        login.usuarios();
+
+        //Lectura del documento
         Documento documento = new Documento();
 
         //METODO PARA ALTA DE PRPODUCTOS
